@@ -1,0 +1,17 @@
+.tree {
+    text-align: center;
+}
+
+.tree .leaf {
+    display: inline-block;
+    background-color: green;
+    color: forestgreen;
+    min-width: calc(1em * 0.8);
+}
+
+.tree .trunk {
+    background-color: saddlebrown;
+    color: saddlebrown;
+    position: relative;
+    z-index: -1;
+}
